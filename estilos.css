@@ -1,0 +1,41 @@
+body{
+    background: #DEDEDE;
+  
+    min-height: 100vh;
+}
+
+h1{
+   
+   margin: 100px auto;
+   text-align: center;
+}
+
+div{
+    display: flex;
+}
+form{
+    
+    width:50%;
+    margin:10px;
+    max-width: 500pxS;
+    padding: 30px;
+    background: #F3F3F3;
+    border: 1px solid rgb(0,0,0);
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    display: block;
+    width: 75%;
+    font-size: 20px;
+    padding: 10px;
+}
+label{
+    display: block;
+    border: 1px solid rgb(0,0,0);
+    width: 75%;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<h3>mensaje codificado</h3>
+<br><br><br>
+<script type="text/javascript">
+	
+	
+	let mensajeCodificado =[""];
+	let mensaje="hola loca";
+	document.write("El mensaje a codificar es: "+ mensaje);
+	document.write("<br><br>");
+	for(let i=0; i < mensaje.length; i++){
+		let caracter = mensaje[i];
+     
+		if(caracter === "a"){
+			mensajeCodificado[i]="ai";
+		} else if(caracter === "e"){
+            mensajeCodificado[i]="enter";
+        } else if(caracter === "i"){
+            mensajeCodificado[i]="imes";
+        } else if(caracter === "o"){
+            mensajeCodificado[i]="ober";
+        } else if(caracter === "u"){
+            mensajeCodificado[i]="ufat";
+        }else {
+			mensajeCodificado[i]=caracter;
+		}
+	}
+	
+   
+	console.log("el codificado es: "+ mensajeCodificado.join(""));
+	document.write("el codificado es: "+ mensajeCodificado.join(""));
+	
+	
+
+
+
+</script>
