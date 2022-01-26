@@ -10,11 +10,11 @@ h1{
    text-align: center;
 }
 
-div{
+  .container{
     display: flex;
 }
-form{
-    
+   .tarjeta{
+  
     width:50%;
     margin:10px;
     max-width: 500pxS;
@@ -28,13 +28,6 @@ p{
 }
 input{
     display: block;
-    width: 75%;
-    font-size: 20px;
-    padding: 10px;
-}
-label{
-    display: block;
-    border: 1px solid rgb(0,0,0);
     width: 75%;
     font-size: 20px;
     padding: 10px;

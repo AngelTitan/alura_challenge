@@ -8,33 +8,34 @@
     <title>encripta-desencripta</title>
 </head>
 <body>
-    <h1>Código Secreto</h1>
+    <h1 id= "mensaje2">Código Secreto</h1>
 
-    <div>
-        <form action="">
+    <div class="container">
+        <div class="tarjeta">
             <p>solo letras minusculas, sin acento</p>
             <input type="text" id="mensaje" placeholder="Ingrese el texto aqui"><br>            
-            <button id="botonEn" onclick="capturarMensaje()">Encriptar</button>
+            <button id="botonEn" onclick="captura()">Encriptar</button>
             <button id="botonDes">desencriptar</button>
-        </form>
+        </div>
     
-        <form action="">
+        <div class="tarjeta">         
             <p>Mensaje encriptado</p>
-            <label for="">hola</label>
+            <input type="text" id="etiqueta">
             <br>
             <button>copiar</button><br>
-
-        </form>
+        </div>
     </div>
-
 
 
 
 
     <script>
 
-   
-
+        function captura(){
+            let mensaje = document.getElementById("mensaje").value;
+            document.getElementById("etiqueta").value = mensaje;
+        }
+  
 
     </script>
 </body>
